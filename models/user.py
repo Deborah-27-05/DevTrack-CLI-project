@@ -55,7 +55,9 @@ class User(Person):
             User.next_id += 1
 
         self.role = role
-        self.project_ids: list[int] = project_ids or []
+        from typing import List
+
+        self.project_ids: List[int] = project_ids or []
 
     # ── Properties ────────────────────────────────────────────────────────────
 

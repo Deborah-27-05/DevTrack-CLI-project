@@ -5,6 +5,7 @@ Represents a development task inside a project, with priority and contributor su
 """
 
 from datetime import date
+from typing import List
 
 VALID_STATUSES = {"Pending", "In Progress", "Completed"}
 VALID_PRIORITIES = {"Low", "Medium", "High"}
@@ -59,7 +60,7 @@ class Task:
         self.priority = priority        # validated via setter
         self.status = status            # validated via setter
         self.due_date = due_date
-        self.contributor_ids: list[int] = contributor_ids or []
+        self.contributor_ids: List[int] = contributor_ids or []
 
     # ── Properties ────────────────────────────────────────────────────────────
 
@@ -104,7 +105,7 @@ class Task:
 
     def complete(self):
         """Mark this task as Completed."""
-        self._status = "Completed"
+        self.status = "Completed"
 
     def add_contributor(self, user_id: int):
         """Add a contributor by user ID (no duplicates)."""

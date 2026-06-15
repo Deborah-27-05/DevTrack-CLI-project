@@ -4,27 +4,51 @@
     "name": "Debbie Otieno",
     "email": "debbie@devtrack.io",
     "role": "Backend Developer",
-    "project_ids": [1, 2]
+    "project_ids": [
+      1,
+      2,
+      4,
+      5
+    ]
   },
   {
     "id": 2,
     "name": "Alice Mwangi",
     "email": "alice@devtrack.io",
     "role": "Frontend Developer",
-    "project_ids": [3]
+    "project_ids": [
+      3
+    ]
   },
   {
     "id": 3,
     "name": "Brian Kamau",
     "email": "brian@devtrack.io",
     "role": "Full Stack Developer",
-    "project_ids": [2, 3]
+    "project_ids": [
+      2,
+      3
+    ]
   },
   {
     "id": 4,
     "name": "Carol Njeri",
     "email": "carol@devtrack.io",
     "role": "QA Engineer",
+    "project_ids": []
+  },
+  {
+    "id": 5,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "role": "Developer",
+    "project_ids": []
+  },
+  {
+    "id": 6,
+    "name": "Test User",
+    "email": "test@demo.com",
+    "role": "Tester",
     "project_ids": []
   }
 ]

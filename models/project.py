@@ -5,6 +5,7 @@ Represents a software development project with tasks and an owner.
 """
 
 from datetime import date
+from typing import List
 
 VALID_STATUSES = {"Planning", "In Progress", "Completed"}
 
@@ -54,7 +55,7 @@ class Project:
         self.description = description
         self.due_date = due_date
         self.status = status          # validated via setter
-        self.task_ids: list[int] = task_ids or []
+        self.task_ids: List[int] = task_ids or []
 
     # ── Properties ────────────────────────────────────────────────────────────
 
