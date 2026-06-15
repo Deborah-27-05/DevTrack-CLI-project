@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Create Login Page",
+    "project_id": 1,
+    "description": "Build authentication UI with email and password fields",
+    "priority": "High",
+    "status": "Completed",
+    "due_date": "2026-07-01",
+    "contributor_ids": [1, 2]
+  },
+  {
+    "id": 2,
+    "title": "Design Database Schema",
+    "project_id": 1,
+    "description": "Create ERD and define all tables and relationships",
+    "priority": "High",
+    "status": "Completed",
+    "due_date": "2026-06-30",
+    "contributor_ids": [1]
+  },
+  {
+    "id": 3,
+    "title": "Build Student Dashboard",
+    "project_id": 1,
+    "description": "Student home screen showing grades, attendance, and timetable",
+    "priority": "Medium",
+    "status": "In Progress",
+    "due_date": "2026-06-19",
+    "contributor_ids": [2, 3]
+  },
+  {
+    "id": 4,
+    "title": "Write Unit Tests",
+    "project_id": 1,
+    "description": "Cover all model and controller logic with pytest",
+    "priority": "Medium",
+    "status": "Pending",
+    "due_date": "2026-09-01",
+    "contributor_ids": [4]
+  },
+  {
+    "id": 5,
+    "title": "Define API Endpoints",
+    "project_id": 2,
+    "description": "Document all REST routes using OpenAPI / Swagger",
+    "priority": "High",
+    "status": "In Progress",
+    "due_date": "2026-06-20",
+    "contributor_ids": [1, 3]
+  },
+  {
+    "id": 6,
+    "title": "Set Up CI/CD Pipeline",
+    "project_id": 2,
+    "description": "Configure GitHub Actions for automated testing and deployment",
+    "priority": "Low",
+    "status": "Pending",
+    "due_date": "2026-06-28",
+    "contributor_ids": [3]
+  },
+  {
+    "id": 7,
+    "title": "Design Sales Chart Component",
+    "project_id": 3,
+    "description": "Interactive line and bar charts using Chart.js",
+    "priority": "High",
+    "status": "Completed",
+    "due_date": "2026-07-01",
+    "contributor_ids": [2]
+  },
+  {
+    "id": 8,
+    "title": "Build Order Management Table",
+    "project_id": 3,
+    "description": "Sortable, filterable data table for order records",
+    "priority": "Medium",
+    "status": "In Progress",
+    "due_date": "2026-06-29",
+    "contributor_ids": [2, 3]
+  },
+  {
+    "id": 9,
+    "title": "Integrate Payment Gateway",
+    "project_id": 3,
+    "description": "Connect Stripe API for refunds and payment status tracking",
+    "priority": "High",
+    "status": "Pending",
+    "due_date": "2026-06-21",
+    "contributor_ids": []
+  }
+]
